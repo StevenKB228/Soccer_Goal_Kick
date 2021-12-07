@@ -43,6 +43,13 @@ namespace soccer_Penalty_Kick_Game
       // below is the big if statement, this is checking all the 5 conditions
       // if the ball is selected to hit a target and it reaches that target
       // then we can reset the ball back to the starting position  
+
+      if (football.Bounds.IntersectsWith(Right.Bounds) && playerTarget == "right"
+           || football.Bounds.IntersectsWith(topRight.Bounds) && playerTarget == "topRight"
+           ||football.Bounds.IntersectsWith(Top.Bounds) && playerTarget == "top"
+           || football.Bounds. IntersectsWith(left.Bounds) && playerTarget == "left"
+           || football.Bounds. IntersectsWith(topleft.Bounds) && playerTarget == "topleft"
+           );
     }
     }
     
